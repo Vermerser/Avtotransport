@@ -1,0 +1,420 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF0CCF80-880F-43A2-B36E-D4A8ED06A006}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Avtotransport</RootNamespace>
+    <AssemblyName>Avtotransport</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>main_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>bin\Debug\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\MySQL\Connector NET 8.0\Assemblies\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AboutBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AboutBox.Designer.cs">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddDriverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddDriverForm.Designer.cs">
+      <DependentUpon>AddDriverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditBatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditBatteryForm.Designer.cs">
+      <DependentUpon>AddEditBatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditDriverForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditDriverForm.Designer.cs">
+      <DependentUpon>AddEditDriverForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditItineraryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditItineraryForm.Designer.cs">
+      <DependentUpon>AddEditItineraryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditOrderForm.Designer.cs">
+      <DependentUpon>AddEditOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditTireForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditTireForm.Designer.cs">
+      <DependentUpon>AddEditTireForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditUserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditUserForm.Designer.cs">
+      <DependentUpon>AddEditUserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddEditVehicleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddEditVehicleForm.Designer.cs">
+      <DependentUpon>AddEditVehicleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddItineraryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItineraryForm.Designer.cs">
+      <DependentUpon>AddItineraryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddVehicleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddVehicleForm.Designer.cs">
+      <DependentUpon>AddVehicleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AuthorizationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AuthorizationForm.Designer.cs">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BatteryClass.cs" />
+    <Compile Include="BatteryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BatteryForm.Designer.cs">
+      <DependentUpon>BatteryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CalendarClass.cs" />
+    <Compile Include="CardMachineWorkClass.cs" />
+    <Compile Include="CompletedOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompletedOrderForm.Designer.cs">
+      <DependentUpon>CompletedOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CompletedTravelOrderClass.cs" />
+    <Compile Include="DriverClass.cs" />
+    <Compile Include="DriversForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DriversForm.Designer.cs">
+      <DependentUpon>DriversForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExportReportClass.cs" />
+    <Compile Include="ReportClass.cs" />
+    <Compile Include="ItineraryClass.cs" />
+    <Compile Include="ItineraryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ItineraryForm.Designer.cs">
+      <DependentUpon>ItineraryForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="NormaClass.cs" />
+    <Compile Include="PrintOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PrintOrderForm.Designer.cs">
+      <DependentUpon>PrintOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SearchOrderForm.Designer.cs">
+      <DependentUpon>SearchOrderForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SecurityClass.cs" />
+    <Compile Include="ServiceMileageClass.cs" />
+    <Compile Include="SettingPrintingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SettingPrintingForm.Designer.cs">
+      <DependentUpon>SettingPrintingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SettingsClass.cs" />
+    <Compile Include="TireClass.cs" />
+    <Compile Include="TireForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TireForm.Designer.cs">
+      <DependentUpon>TireForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TravelOrderClass.cs" />
+    <Compile Include="UserClass.cs" />
+    <Compile Include="UserRightClass.cs" />
+    <Compile Include="UsersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UsersForm.Designer.cs">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VehicleClass.cs" />
+    <Compile Include="VehicleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="VehicleForm.Designer.cs">
+      <DependentUpon>VehicleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WordDocument.cs" />
+    <Compile Include="WordSelection.cs" />
+    <EmbeddedResource Include="AboutBox.resx">
+      <DependentUpon>AboutBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddDriverForm.resx">
+      <DependentUpon>AddDriverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditBatteryForm.resx">
+      <DependentUpon>AddEditBatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditDriverForm.resx">
+      <DependentUpon>AddEditDriverForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditItineraryForm.resx">
+      <DependentUpon>AddEditItineraryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditOrderForm.resx">
+      <DependentUpon>AddEditOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditTireForm.resx">
+      <DependentUpon>AddEditTireForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditUserForm.resx">
+      <DependentUpon>AddEditUserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddEditVehicleForm.resx">
+      <DependentUpon>AddEditVehicleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddItineraryForm.resx">
+      <DependentUpon>AddItineraryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddVehicleForm.resx">
+      <DependentUpon>AddVehicleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AuthorizationForm.resx">
+      <DependentUpon>AuthorizationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BatteryForm.resx">
+      <DependentUpon>BatteryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompletedOrderForm.resx">
+      <DependentUpon>CompletedOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriversForm.resx">
+      <DependentUpon>DriversForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ItineraryForm.resx">
+      <DependentUpon>ItineraryForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PrintOrderForm.resx">
+      <DependentUpon>PrintOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SearchOrderForm.resx">
+      <DependentUpon>SearchOrderForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SettingPrintingForm.resx">
+      <DependentUpon>SettingPrintingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TireForm.resx">
+      <DependentUpon>TireForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UsersForm.resx">
+      <DependentUpon>UsersForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="VehicleForm.resx">
+      <DependentUpon>VehicleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user-authorization.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user_guide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\driver_guide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battery_guide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tire_guide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\itinerary_guide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vehicle_guide.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\addOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\printOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\compOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\searchOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\reports.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lockOrder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 и x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="main_icon.ico" />
+    <None Include="Resources\dublicate_button.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

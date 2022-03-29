@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Class Name="Avtotransport.UserClass">
+    <Position X="0.5" Y="0.5" Width="2.25" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+      <Method Name="UserClass" Hidden="true" />
+      <Property Name="UserDelStatus" Hidden="true" />
+      <Property Name="UserId" Hidden="true" />
+      <Property Name="UserLogin" Hidden="true" />
+      <Property Name="UserName" Hidden="true" />
+      <Property Name="UserPassword" Hidden="true" />
+      <Property Name="UserSpecialty" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EoBAAACIAQAAQAAECAAAAAgAgAAAEIAAIQAEADMAAAA=</HashCode>
+      <FileName>UserClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.UserRightClass">
+    <Position X="0.5" Y="5.25" Width="2.25" />
+    <Members>
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="UserId" Hidden="true" />
+      <Property Name="UserRightAdmin" Hidden="true" />
+      <Property Name="UserRightAvto" Hidden="true" />
+      <Method Name="UserRightClass" Hidden="true" />
+      <Property Name="UserRightDriver" Hidden="true" />
+      <Property Name="UserRightGuides" Hidden="true" />
+      <Property Name="UserRightId" Hidden="true" />
+      <Property Name="UserRightMechanic" Hidden="true" />
+      <Property Name="UserRightWaybill" Hidden="true" />
+      <Property Name="UserRightWayblock" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BRAJAAAAAAAhQAAECAAICAgAIAAEUIkAAAAAACEAIAA=</HashCode>
+      <FileName>UserRightClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.VehicleClass">
+    <Position X="7" Y="0.5" Width="2.25" />
+    <Members>
+      <Property Name="BodySize" Hidden="true" />
+      <Property Name="BodyType" Hidden="true" />
+      <Property Name="DriverId" Hidden="true" />
+      <Property Name="FuelBalance" Hidden="true" />
+      <Property Name="FuelTank" Hidden="true" />
+      <Property Name="FuelType" Hidden="true" />
+      <Property Name="Model" Hidden="true" />
+      <Property Name="MotorSize" Hidden="true" />
+      <Property Name="MotorType" Hidden="true" />
+      <Property Name="Passengers" Hidden="true" />
+      <Property Name="RegNumber" Hidden="true" />
+      <Property Name="ReleaseDate" Hidden="true" />
+      <Property Name="SpareWheel" Hidden="true" />
+      <Property Name="Tonnage" Hidden="true" />
+      <Property Name="TonnageCoefficient" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="Trailer" Hidden="true" />
+      <Property Name="Type" Hidden="true" />
+      <Property Name="Usage" Hidden="true" />
+      <Method Name="VehicleClass" Hidden="true" />
+      <Property Name="VehicleId" Hidden="true" />
+      <Property Name="Wheel" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIRBEAAMAZIABIEDAQiQACEIAARgIQREYgUGQAKEQA=</HashCode>
+      <FileName>VehicleClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.BatteryClass">
+    <Position X="3.25" Y="0.5" Width="2.5" />
+    <Members>
+      <Property Name="BatteryBeforeinstKm" Hidden="true" />
+      <Property Name="BatteryBeforeinstMonth" Hidden="true" />
+      <Method Name="BatteryClass" Hidden="true" />
+      <Property Name="BatteryCoast" Hidden="true" />
+      <Property Name="BatteryCurrentmonth" Hidden="true" />
+      <Property Name="BatteryCurrentrun" Hidden="true" />
+      <Property Name="BatteryDate" Hidden="true" />
+      <Property Name="BatteryId" Hidden="true" />
+      <Property Name="BatteryInstallationdate" Hidden="true" />
+      <Property Name="BatteryMadename" Hidden="true" />
+      <Property Name="BatteryRemovedate" Hidden="true" />
+      <Property Name="BatteryRunnorm" Hidden="true" />
+      <Property Name="BatteryStatus" Hidden="true" />
+      <Property Name="BatteryTimenormMonth" Hidden="true" />
+      <Property Name="BatteryTimenormYears" Hidden="true" />
+      <Property Name="BatteryType" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="VehicleId" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>EhBIASGcQAABAEAEgAAEAgAEBGCAgIBmAMgABIAISAE=</HashCode>
+      <FileName>BatteryClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.TireClass">
+    <Position X="3.25" Y="6.75" Width="2.5" />
+    <Members>
+      <Property Name="Coast" Hidden="true" />
+      <Property Name="CurrentRun" Hidden="true" />
+      <Property Name="CurrentYears" Hidden="true" />
+      <Property Name="ExpluataionStatus" Hidden="true" />
+      <Property Name="InstallationDate" Hidden="true" />
+      <Property Name="MadeName" Hidden="true" />
+      <Property Name="Model" Hidden="true" />
+      <Property Name="Position" Hidden="true" />
+      <Property Name="RemoveDate" Hidden="true" />
+      <Property Name="RunNorma" Hidden="true" />
+      <Property Name="SerialNumber" Hidden="true" />
+      <Property Name="Size" Hidden="true" />
+      <Property Name="Sparewheel" Hidden="true" />
+      <Method Name="TireClass" Hidden="true" />
+      <Property Name="TireId" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="VehicleId" Hidden="true" />
+      <Property Name="Weight" Hidden="true" />
+      <Property Name="WorkNorma" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AgYiAECQAgMAiSgkAIMoIAASCCkAjIAgAIgAgAgOAAA=</HashCode>
+      <FileName>TireClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.ServiceMileageClass">
+    <Position X="7" Y="8" Width="2.5" />
+    <Members>
+      <Property Name="AvtoState" Hidden="true" />
+      <Property Name="ControlDate1" Hidden="true" />
+      <Property Name="ControlDate2" Hidden="true" />
+      <Property Name="Counter" Hidden="true" />
+      <Property Name="CounterIntervalTo1" Hidden="true" />
+      <Property Name="CounterIntervalTo2" Hidden="true" />
+      <Property Name="CounterIntervalTo3" Hidden="true" />
+      <Property Name="CounterTo1" Hidden="true" />
+      <Property Name="CounterTo2" Hidden="true" />
+      <Property Name="CounterTo3" Hidden="true" />
+      <Property Name="IntervalTo1" Hidden="true" />
+      <Property Name="IntervalTo2" Hidden="true" />
+      <Property Name="RunLimit" Hidden="true" />
+      <Property Name="ServiceId" Hidden="true" />
+      <Method Name="ServiceMileageClass" Hidden="true" />
+      <Property Name="Speedometer" Hidden="true" />
+      <Property Name="SpeedometerControl" Hidden="true" />
+      <Property Name="SpeedometerLimit" Hidden="true" />
+      <Property Name="SpeedometerTo1" Hidden="true" />
+      <Property Name="SpeedometerTo2" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="VehicleId" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>oAAAAigBAABoAQAEaABIAQAAQQBhgYEAIMAIAIBDgCI=</HashCode>
+      <FileName>ServiceMileageClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.NormaClass">
+    <Position X="10" Y="8" Width="2.25" />
+    <Members>
+      <Property Name="Bezdor" Hidden="true" />
+      <Property Name="Boost1" Hidden="true" />
+      <Property Name="Boost2" Hidden="true" />
+      <Property Name="Boost3" Hidden="true" />
+      <Property Name="Cond" Hidden="true" />
+      <Property Name="Fuel" Hidden="true" />
+      <Property Name="Generator" Hidden="true" />
+      <Property Name="Gorod100" Hidden="true" />
+      <Property Name="Gorod1000" Hidden="true" />
+      <Property Name="Gorod300" Hidden="true" />
+      <Property Name="Medl" Hidden="true" />
+      <Property Name="Mehanism" Hidden="true" />
+      <Property Name="Norma100" Hidden="true" />
+      <Property Name="Norma100Trailer" Hidden="true" />
+      <Method Name="NormaClass" Hidden="true" />
+      <Property Name="NormaId" Hidden="true" />
+      <Property Name="Ostan" Hidden="true" />
+      <Property Name="Otopitel" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="Track" Hidden="true" />
+      <Property Name="Trailer" Hidden="true" />
+      <Property Name="Trip" Hidden="true" />
+      <Property Name="VehicleId" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IAIIgBAAFGCQIBZkgABSAAAAUBACgIAwAoAAIAAiAAA=</HashCode>
+      <FileName>NormaClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.DriverClass">
+    <Position X="10.25" Y="0.5" Width="2.25" />
+    <Members>
+      <Property Name="DriverAdres" Hidden="true" />
+      <Property Name="DriverCertificate" Hidden="true" />
+      <Method Name="DriverClass" Hidden="true" />
+      <Property Name="DriverControldate" Hidden="true" />
+      <Property Name="DriverId" Hidden="true" />
+      <Property Name="DriverMeddate" Hidden="true" />
+      <Property Name="DriverName" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAEAAAABBEAggCAAAICAgAAIAYBBAAAAgSgAA=</HashCode>
+      <FileName>DriverClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.TravelOrderClass">
+    <Position X="13.75" Y="0.5" Width="2.5" />
+    <Members>
+      <Property Name="CompletedFlag" Hidden="true" />
+      <Property Name="Customer" Hidden="true" />
+      <Property Name="Date" Hidden="true" />
+      <Property Name="DopInfo" Hidden="true" />
+      <Property Name="DriverId" Hidden="true" />
+      <Property Name="FuelBalance" Hidden="true" />
+      <Property Name="FuelCharge" Hidden="true" />
+      <Property Name="ItineraryId" Hidden="true" />
+      <Property Name="Lockflag" Hidden="true" />
+      <Property Name="MotoOut" Hidden="true" />
+      <Property Name="Number" Hidden="true" />
+      <Property Name="OrderId" Hidden="true" />
+      <Property Name="Series" Hidden="true" />
+      <Property Name="SpeedometerOut" Hidden="true" />
+      <Property Name="TimeIn" Hidden="true" />
+      <Property Name="TimeOut" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="TransportationKind" Hidden="true" />
+      <Method Name="TravelOrderClass" Hidden="true" />
+      <Property Name="ValidityDate" Hidden="true" />
+      <Property Name="VehicleId" Hidden="true" />
+      <Property Name="WinterCoefficient" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAEBgQBREQgAUBIGAEAKDAAAGAwAgYUBgpEFARACAAE=</HashCode>
+      <FileName>TravelOrderClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.CompletedTravelOrderClass">
+    <Position X="17.75" Y="0.5" Width="3.25" />
+    <Members>
+      <Property Name="Bezdor" Hidden="true" />
+      <Property Name="Cargo" Hidden="true" />
+      <Property Name="CompletedId" Hidden="true" />
+      <Method Name="CompletedTravelOrderClass" Hidden="true" />
+      <Property Name="Cond" Hidden="true" />
+      <Property Name="DopCoefficient" Hidden="true" />
+      <Property Name="FuelBalance" Hidden="true" />
+      <Property Name="Generator" Hidden="true" />
+      <Property Name="Gorod100" Hidden="true" />
+      <Property Name="Gorod1000" Hidden="true" />
+      <Property Name="Gorod300" Hidden="true" />
+      <Property Name="Medl" Hidden="true" />
+      <Property Name="MotoIn" Hidden="true" />
+      <Property Name="OnTrailer" Hidden="true" />
+      <Property Name="OrderId" Hidden="true" />
+      <Property Name="Ostan" Hidden="true" />
+      <Property Name="Otopitel" Hidden="true" />
+      <Property Name="Refuel" Hidden="true" />
+      <Property Name="SpeedometerIn" Hidden="true" />
+      <Property Name="TimeIn" Hidden="true" />
+      <Property Name="TimeOut" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="Track" Hidden="true" />
+      <Property Name="TransportationKind" Hidden="true" />
+      <Property Name="WithCargo" Hidden="true" />
+      <Property Name="WithoutCargo" Hidden="true" />
+      <Property Name="WithTrailer" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EABMgBIAHEAQIAbEAAAbgAIAGRAEAIS5AiAEqRAgQAA=</HashCode>
+      <FileName>CompletedTravelOrderClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.ItineraryClass">
+    <Position X="13.75" Y="8" Width="2.5" />
+    <Members>
+      <Property Name="City100" Hidden="true" />
+      <Property Name="City1000" Hidden="true" />
+      <Property Name="City300" Hidden="true" />
+      <Property Name="Distance" Hidden="true" />
+      <Property Name="Field" Hidden="true" />
+      <Method Name="ItineraryClass" Hidden="true" />
+      <Property Name="ItineraryId" Hidden="true" />
+      <Property Name="ItineraryName" Hidden="true" />
+      <Property Name="Medl" Hidden="true" />
+      <Property Name="Ostanov" Hidden="true" />
+      <Method Name="ToString" Hidden="true" />
+      <Property Name="Track" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAyAAAAQAUABGCFMAAgAAAAAAFAABIFQABAAAAUAgAA=</HashCode>
+      <FileName>ItineraryClass.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

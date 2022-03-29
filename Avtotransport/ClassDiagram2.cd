@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Avtotransport.MainForm" Collapsed="true">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>LEa0BJMiCDAAQRECBF/DHGEHsAgLxdFMmqQRAG6FEU8=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.UsersForm" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEgAMgACAAEEgABECAAIACAAAAAIAAoSAigAAAQAM=</HashCode>
+      <FileName>UsersForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditUserForm" Collapsed="true">
+    <Position X="0.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>CAAAQAiYACAAQlAACACACAgCAEQcgCAAAGAAAwAAEAA=</HashCode>
+      <FileName>AddEditUserForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AuthorizationForm" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAACAAABAAACCAAAACACAAEAACAAAQAAAAAAg=</HashCode>
+      <FileName>AuthorizationForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.DriversForm" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gCQEAQMgACAAAGAABECAAAACAAICAAAAoCAmgACgADE=</HashCode>
+      <FileName>DriversForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditDriverForm" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAwFGAAAhACAQCAAAACAACcAAAIQUAAAQAAAAA=</HashCode>
+      <FileName>AddEditDriverForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddDriverForm" Collapsed="true">
+    <Position X="6.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAECAAASAAAACAABAKIAgYAAAAAEAAAQAgADA=</HashCode>
+      <FileName>AddDriverForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.VehicleForm" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQkAMMgAiAAAECABECEAAACEgSAAABYpCAigAAAAAM=</HashCode>
+      <FileName>VehicleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditVehicleForm" Collapsed="true">
+    <Position X="2.75" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>/wqAD1CZFKBoS5pkihXsYIBWeJJ7uQUvFNEhM4ArkzY=</HashCode>
+      <FileName>AddEditVehicleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.BatteryForm" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQEAAMiADiIIECAAEiAAIACE4ACAAJIoCAggAAAAAE=</HashCode>
+      <FileName>BatteryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditBatteryForm" Collapsed="true">
+    <Position X="5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>/wwkBAAFgiCAAjAAGEDkEAHTAAEZEAhKAMAgAQQRAAA=</HashCode>
+      <FileName>AddEditBatteryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.TireForm" Collapsed="true">
+    <Position X="7.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQEAEMuACCAAEAAAECQAAACUIACAAJQoDgigAAAQAE=</HashCode>
+      <FileName>TireForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditTireForm" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>/w6gCAABgiEAAjAAGMPJIAHXABEYHAoiAMEgBwQoADQ=</HashCode>
+      <FileName>AddEditTireForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.ItineraryForm" Collapsed="true">
+    <Position X="2.75" Y="4.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAwEAAMgAGAACEEAAECAAAACQASABABQoLAggAEAgAE=</HashCode>
+      <FileName>ItineraryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditItineraryForm" Collapsed="true">
+    <Position X="2.75" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ewSACAAQAKABAjBEAAiAAgAGAFAYACEAAFABAQAAgyA=</HashCode>
+      <FileName>AddEditItineraryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddItineraryForm" Collapsed="true">
+    <Position X="9.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAEAACAAACAAAACAAAACIEQYAAAACFABAQAAAAA=</HashCode>
+      <FileName>AddItineraryForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.CompletedOrderForm" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>/2RIgFBxBKQGYxjGAACLiAI3EBgaFQ7iJMQjvRAggrI=</HashCode>
+      <FileName>CompletedOrderForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddEditOrderForm" Collapsed="true">
+    <Position X="9.5" Y="3" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>42AlgQAVECgAYhCgCBDuIAFHABFYAQ0GINAuERBCILI=</HashCode>
+      <FileName>AddEditOrderForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.AddVehicleForm" Collapsed="true">
+    <Position X="6.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAIAAACAAAAgAAACgAAACAAAYAiAAAMACAQBIAAA=</HashCode>
+      <FileName>AddVehicleForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Avtotransport.SearchOrderForm" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIgACAAABAAAACAAAACAAAAgAAAAAAIABAEAAE=</HashCode>
+      <FileName>SearchOrderForm.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
